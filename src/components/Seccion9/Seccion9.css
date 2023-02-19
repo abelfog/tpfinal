@@ -1,0 +1,191 @@
+.logoYformularioContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f5fcff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+@media(max-width:950px){
+    .logoYformularioContenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoYdatos{
+        margin-bottom: 2rem;
+    }
+    .formularioYcontacto{
+        width: 50vw;
+        max-height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.iconoCarpeta{
+    font-size: 3rem;
+    color: #2978cb
+
+}
+
+.soloLogos{
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    padding: 2rem 0;
+}
+
+.logoYdatos> h1{
+    padding-top: 1rem;
+}
+
+
+.link{
+    color: #0274b3;
+    cursor: pointer;
+}
+
+.face{
+    color: #4867aa;
+    cursor: pointer;
+}
+
+.twit{
+    color: #1d9bf0;
+    cursor: pointer;
+}
+
+.inst{
+    color: #cc2366;
+    cursor: pointer;
+}
+
+.logoYdatos> p{
+    font-size: 1.2rem;
+}
+
+
+.formularioYcontacto{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    border:0 10px;
+    border-radius: 8px;
+    box-shadow: -4px 5px 30px -8px rgba(0,0,0,0.75);
+    background-color: white;
+}
+
+.send{
+    display: none;
+}
+
+.botonSubmit{
+    align-self: center;
+}
+
+
+.contactame{
+    color: #2676ca;
+}
+
+@media(max-width:950px){
+    .contactame{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+
+    }
+    .botonSubmit{
+        align-self: center;
+        position: relative;
+        bottom: 0.5rem;
+    }
+    .botonSubmit> p{
+        display: none;
+    }
+    .send{
+        display: block;
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #2978cb;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+input:focus{  
+    border: none;
+    border-bottom: 2px solid #2978cb;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    font-size: 1.3rem;
+    
+}
+
+textarea{
+    border: none;
+    border-bottom: 1px solid #2978cb;
+    padding-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: 20vh;
+    outline: none;
+    resize:none;
+    
+}
+
+textarea:focus{
+    border-bottom: 2px solid #2978cb;
+}
+
+.botonSubmit{
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    background-color: #2978cb;
+    color: white;
+    border: 0 solid #2978cb;
+    border-radius: 10px;;
+    cursor:pointer; 
+    width: 10vw;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.botonSubmit:hover {
+    color: white;
+}
+
+.botonSubmit::after {
+    content: "";
+    background: #0c75ec;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+}
+
+.botonSubmit:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+}

@@ -1,0 +1,145 @@
+.experienciaContenedor{
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    padding-bottom: 3rem;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+    background-color: #f5fcff;
+}
+
+.tarjeta{
+    border:0 10px;
+    border-radius: 10px;
+    margin-top: 4rem;   
+    width: 18vw;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.tarjeta> i{
+    font-size: 3.5rem;
+    background-color: #f1662a;
+    color: #f5fcff;
+    border-radius: 10px;
+}
+
+.tarjeta> p{
+    padding-top: 1.5rem;
+    
+}   
+
+.tarjeta2{
+    border:0 10px;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 18vw;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.tarjeta2> i{
+    font-size: 3.5rem;
+    background-color: #32a7db;
+    color: #f5fcff;
+    border-radius: 10px;
+} 
+
+.tarjeta2> p{
+    padding-top: 1.5rem;
+}
+
+
+.tarjeta3{
+    border:0 10px;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 18vw;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.tarjeta3> i{
+    font-size: 3.5rem;
+    background-color: #f2d500;
+    color: white;
+    border-radius: 10px;
+}
+
+.tarjeta3> p{
+    padding-top: 1.5rem;
+}
+
+
+.tarjeta4{
+    border:0 10px;
+    border-radius: 10px;
+    margin-top: 4rem;
+    width: 18vw;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.tarjeta4> i{
+    font-size: 3.5rem;
+    background-color: #313d41;
+    color: #00d2f2;
+    border-radius: 10px;
+}
+
+.tarjeta4> p{
+    padding-top: 1.5rem;
+}
+
+.tarjeta:hover{
+    box-shadow: 0px 3px 0 0 #0058bf;
+}
+
+.tarjeta2:hover{
+    box-shadow: 0px 3px 0 0 #0058bf;
+}
+
+.tarjeta3:hover{
+    box-shadow: 0px 3px 0 0 #0058bf;
+}
+
+.tarjeta4:hover{
+    box-shadow: 0px 3px 0 0 #0058bf;
+}
+
+@media(max-width:610px){
+    .experienciaContenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:610px){
+    .tarjeta{
+        width: 50vw;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:610px){
+    .tarjeta2{
+        width: 50vw;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:610px){
+    .tarjeta3{
+        width: 50vw;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:610px){
+    .tarjeta4{
+        width: 50vw;
+        margin-top: 2rem;
+    }
+}

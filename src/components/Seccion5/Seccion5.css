@@ -1,0 +1,157 @@
+.expeHabContenedor{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #f5fcff;
+}
+
+@media(max-width:1100px){
+    .expeHabContenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+
+@media(max-width:1100px){
+    .expe{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media(max-width:1100px){
+    .expe> p{
+        text-align: center;
+        
+    }
+}
+
+.habil{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sublista{
+    display: flex;
+    align-items: center;
+}
+
+.sublista> i{
+    color: #2978cb;
+    padding-right: 0.8rem;
+    height: 3vh;
+    width: 1vw;
+    position: relative;
+    top:1rem;
+}
+
+.sublista> h1{
+    padding-top: 1rem;
+}
+
+.listita> .p1{
+    color: #55575a;
+}
+
+.listita> p{
+    margin-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.prueba2> p{
+    font-size: 1.5rem;
+    color:#2978cb;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-bars{
+padding: 0 2rem;
+width: 50vw;
+background: #f5fcff;
+border-radius: 10px;
+margin-left: 1rem;
+
+
+}
+
+.skill-bars> p{
+    font-size: 1.5rem;
+    color:#2978cb;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
+}
+.skill-bars .bar{
+margin: 3rem 0;
+}
+.skill-bars .bar:first-child{
+padding-top: 0px;
+}
+.skill-bars .bar .info{
+padding-bottom: 5px;
+}
+.skill-bars .bar .info span{
+font-weight: 500;
+font-size: 17px;
+opacity: 0;
+animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+    100%{
+    opacity: 1;
+    }
+}
+.skill-bars .bar .progress-line{
+height: 10px;
+width: 100%;
+background: #f5fcff;
+position: relative;
+transform: scaleX(0);
+transform-origin: left;
+border-radius: 10px;
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),0 1px rgba(255,255,255,0.8);
+animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+100%{
+    transform: scaleX(1);
+}
+}
+.bar .progress-line span{
+height: 100%;
+position: absolute;
+border-radius: 10px;
+transform: scaleX(0);
+transform-origin: left;
+background: rgb(137,156,189);
+background: linear-gradient(86deg, rgba(137,156,189,1) 19%, rgba(103,115,208,1) 38%, rgba(69,60,193,1) 100%, rgba(157,179,227,1) 100%); animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+width: 90%;
+}
+.bar .progress-line.css span{
+width: 80%;
+}
+.bar .progress-line.javascript span{
+width: 85%;
+}
+.bar .progress-line.reactJs span{
+width: 70%;
+}
+
+@media(max-width:1100px){
+    .skill-bars> p{
+        margin-top: 3rem;
+        margin-bottom: -2rem;
+    }
+}

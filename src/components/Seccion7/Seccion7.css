@@ -1,0 +1,112 @@
+.myPortfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+    background-color: #f5fcff;
+    
+}
+
+.btn2{
+    padding: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.1rem;
+    background-color: #2978cb;
+    color: white;
+    border: 0 solid #2978cb;
+    border-radius: 10px;    
+    cursor:pointer; 
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    
+}
+
+.btn2:hover {
+    background: #fff;
+    color: #4433ff
+}
+
+.btn2> i{
+    padding-right: 0.3rem;
+}
+
+.tarjetasProyectos{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    background-color: #f5fcff;
+    flex-wrap: wrap;
+    
+}
+
+.tarjetaProyect> img{
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.tarjetaProyect{
+    border:0 10px;
+    border-radius: 8px;
+    margin-top: 4rem;
+    width: 17vw;
+    max-height: auto;
+    padding: 1rem 1rem;
+    box-shadow: -4px 5px 30px -8px rgba(0,0,0,0.75);
+    background-color: white;
+    
+}
+
+@media(max-width:1980px){
+    .tarjetaProyect{
+        width: auto;
+    }
+}
+
+@media(max-width:785px){
+    .tarjetaProyect{
+        text-align: center;
+        
+    }
+}
+
+@media(max-width:785px){
+    .tarjetaProyect> p{
+        padding-left: 4rem;
+        
+    }
+}
+
+.tarjetaProyect> button{
+    border: 0;
+    background-color: white;
+    margin:0.7rem 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tarjetaProyect> p{
+    width: 17vw;
+}
+
+.verGitHub> i{
+color: #2978cb;
+padding-left: 0.5rem;
+font-size: 1rem;
+}
+
+.verGitHub{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.verGitHub:hover, .verGitHub:focus {
+    background-size: 90% 2px;
+}

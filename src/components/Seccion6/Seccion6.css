@@ -1,0 +1,164 @@
+.contenedorDisenio{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #f5fcff;
+    height: 50%;
+}
+
+.contenedorQuePuedo{
+    display: flex;
+    flex-direction:column;
+    width: 40vw;
+    background-color: #f5fcff;
+}
+
+.imagenYtexto> img{
+    max-height: 13vh;
+    width: 6vw;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+.imagenYtexto> p{
+    font-size: 1.2rem;
+}
+
+.imagenYtexto> p> span{
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+
+.contenedorQuePuedo> h4{
+    font-size: 2rem;
+    
+}
+
+.contenedorQuePuedo> p{
+    color:#8b9093;
+    font-size: 1.3rem;
+}
+
+.imgFondoAzul{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.disenioAzul{
+    background-color: #2978cb;
+    border-radius: 20px;
+    padding: 1rem;
+    display: grid;
+    width: 10vw;
+    align-content: center;
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.75);
+    
+}
+
+@media(max-width:1980px){
+    .disenioAzul{
+        height: 50%;
+    }
+}
+
+@media(max-width:1000px){
+    .contenedorDisenio{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+    }
+}
+
+@media(max-width:1000px){
+    .imgFondoAzul{
+        display: flex;
+        justify-content:space-around;
+        width: 60vw;
+        
+    }
+    .disenioAzul{
+        width: 15vw;
+    }
+}
+
+@media(max-width:610px){
+    .disenioAzul{
+        font-size: 0.7rem;
+        width: 20vw;
+    }
+    
+}
+
+@media(max-width:1000px){
+    .contenedorQuePuedo{
+    margin-top: 2rem;
+
+    }
+}
+
+.disenioAzul> i{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #f5fcff;
+    padding-bottom: 2rem;
+    
+}
+
+.disenioAzul> p{
+    color: #f5fcff;;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+.disenioAzul> h4{
+    text-align: center;
+    color:#f5fcff
+}
+
+.imagenYtexto{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    width: 30vw;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+    
+}
+
+.numPorcentaje{
+    display: flex;
+    align-items: center;
+}
+
+.porcen1> span{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.porcen1> p{
+    font-size: 1rem;
+    color: #8b9093;
+}
+
+.porcen2{
+    margin-left: 2rem;
+}
+
+.porcen2> span{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.porcen2> p{
+    font-size: 1rem;
+    color: #8b9093;
+}

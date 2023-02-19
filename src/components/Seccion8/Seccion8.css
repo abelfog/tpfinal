@@ -1,0 +1,150 @@
+.prueba{
+    background-color: #f5fcff;
+}
+
+.mapaContenedor{
+    margin: 0 6rem;
+    background-color: #f5fcff;
+    background: rgb(40,73,131);
+    background: linear-gradient(151deg, rgba(40,73,131,1) 19%, rgba(30,47,176,1) 38%, rgba(52,126,187,1) 100%, rgba(83,122,208,1) 100%);
+
+}
+
+.tituloYdemas{
+    display: flex;
+    flex-direction: column;
+}
+
+.letras> h1{
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+}
+
+.mapaYdemas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media(max-width:804px){
+    .mapaYdemas> img{
+        max-width: 70vw;
+        max-height: 30vh;
+    }
+}
+
+@media(max-width:640px){
+    .mapaYdemas> img{
+        display: none;
+    }
+}
+
+
+@media(max-width:1010px){
+    .mapaYdemas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.trabajarJuntos{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.trabajarJuntos> p{
+    color: white;
+}
+
+.btn3{
+    max-width: 10vw;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    cursor:pointer;
+    border: 0;
+}
+
+.btn3> p{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media(max-width:1010px){
+    .trabajarJuntos> p{
+        display: none;
+    }
+}
+
+.trabajarJuntos> h2{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+@media(max-width:1010px){
+    .trabajarJuntos> h2{
+        display: none;
+    }
+}
+
+@media(max-width:1010px){
+    .btn3{
+        margin-bottom: 1rem;
+        align-self: center;      
+    }.btn3>p{
+        font-size: 0.9rem;
+    }
+
+}
+
+@media(max-width:600px){
+    .btn3> p{
+        font-size: 0.8rem;
+    }
+}
+
+.btn3:link,
+.btn3:visited {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: all .2s;
+}
+
+.btn3:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn3::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+}
+
+.btn3::after {
+    background-color: #fff;
+}
+
+.btn3:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}

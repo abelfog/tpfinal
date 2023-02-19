@@ -1,0 +1,10 @@
+.iconos1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 3rem;
+    color:#919598;
+    background-color: #f5fcff;
+}

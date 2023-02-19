@@ -1,0 +1,124 @@
+.cristianContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5fcff;
+}
+
+.iamCristian> p{
+    font-size: 1.5rem;
+    
+}
+
+.iamCristian{
+    font-size: 1.2rem;
+    width: 50vw;
+    letter-spacing: -1px;
+}
+
+
+.cristianContenedor> .imagen {
+    background-color: #cae0eb;
+    border-radius: 10px;
+
+    
+}
+
+.span1{
+    color:#2978cb
+}
+
+.botones{
+    margin-top: 2rem;
+    
+}
+
+@media(max-width:800px){
+    .cristianContenedor{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .iamCristian{
+        font-size: 1rem;
+        align-items: flex-end;
+    }
+    
+}
+.contratarme {
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: black;
+    border: 0 solid #f5fcff;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    cursor:pointer;     
+    text-decoration: none;
+    background-color: rgb(223, 214, 214);
+    letter-spacing: 1px;
+}
+
+.contratarme:hover {
+    color: white;
+}
+
+.contratarme::after {
+    content: "";
+    background: #0c75ec;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+}
+
+.contratarme:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-30deg) scale(1, 1);
+}
+
+.verPortfolio {
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: black;
+    border: 0 solid #f5fcff;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    cursor:pointer;
+    text-decoration: none;
+    background-color: rgb(223, 214, 214);
+    letter-spacing: 1px;
+}
+
+.verPortfolio:hover {
+    color: white;
+}
+
+.verPortfolio::after {
+    content: "";
+    background: #0c75ec;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;       
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+    
+}
+
+.verPortfolio:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+}

@@ -1,0 +1,59 @@
+.footerContenedor{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.nav{
+    position: relative;
+    right: 0.9rem;
+}
+
+.nav> a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    
+}
+
+.navegador2:hover{
+    color:#0c75ec
+    
+}
+
+.logoFooter{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.logoFooter> p{
+    font-size: 1.2rem;
+}
+
+
+.logoFooter> i{
+    color:#2978cb
+}
+
+.iconosFooter{
+    font-size: 1.3rem;
+    color: #0c75ec;
+    letter-spacing: 3px;
+} 
+
+.iconosFooter> i{
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+    .nav{
+        display: none;
+    }
+}
+

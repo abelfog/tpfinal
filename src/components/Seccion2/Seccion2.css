@@ -1,0 +1,93 @@
+.aboutMeContenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1effa;
+}
+
+.sobreLorem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:3rem;
+}
+
+.sobreLorem> h2{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.sobreLorem> p{
+    font-size:1.5rem;
+    color: #8b9093;
+    max-width: 60%;
+} 
+
+.iconosYletras{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    justify-content: center;
+    
+}
+
+.subIconosletras{
+    display: flex;
+    align-items: center;
+
+}
+
+.subIconosletras> i{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: #2978cb;
+    border-radius: 20px;
+    padding: 1.6rem 1.3rem;
+    box-shadow: 0px 5px 5px 1px rgba(168,178,188,1);
+    
+}
+
+.subIconosletras> p{
+    color: #171513;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+
+@media(max-width:800px){
+    .hLorem{
+        text-align: center;
+    }
+    .sobreLorem> p{
+        text-align: center;
+    }
+
+    .sobreLorem{
+        display: flex;
+        flex-direction: column;
+    }
+    .sobreLorem> h2{
+        width: 80%;
+        
+    }.imagen{
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:850px){
+    .subIconosletras{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+@media(max-width:610px){
+    .iconosYletras{
+    display: flex;
+    flex-direction: column;
+    
+}
+}
