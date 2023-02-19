@@ -12,7 +12,7 @@ import { Seccion7 } from './components/Seccion7/Seccion7'
 import { Seccion8 } from './components/Seccion8/Seccion8'
 import { Seccion9 } from './components/Seccion9/Seccion9' 
 import { Footer } from './components/Footer/Footer'
-import { Terminos } from './components/Terminos/Terminos'
+
 
 function App() {
   
@@ -31,7 +31,6 @@ function App() {
       <Seccion8/>
       <Seccion9/>
       <Footer/>
-      <Terminos/>
     </div>
   )
 }
